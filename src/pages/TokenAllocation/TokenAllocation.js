@@ -8,7 +8,7 @@ const TokenAllocation = () => {
   const handleClick = () => setClick(!click);
   return (
     <div className="tokenAllocation">
-      <nav className="nav">
+      <nav className="nav bg-black bg-opacity-80">
         <Link to="/">
           <img src="/images/gc1.png" alt="logo" />
         </Link>
@@ -127,7 +127,11 @@ const TokenAllocation = () => {
         <h2 className="grobold">Why CattySol ?</h2>
         <div className="participate_each">
           <div className="participate1">
-            <img src="/images/new/cc.jpg" alt="make payment" />
+            <img
+              className="rounded-lg"
+              src="/images/new/cc.jpg"
+              alt="make payment"
+            />
             <p className="grobold">Strong Community</p>
             <p className="participate_text">
               CattySol is delighted to call Solana Network its home. Our
@@ -136,7 +140,11 @@ const TokenAllocation = () => {
             </p>
           </div>
           <div className="participate1">
-            <img src="/images/new/bc.jpg" alt="recieve Token" />
+            <img
+              className="rounded-lg"
+              src="/images/new/bc.jpg"
+              alt="recieve Token"
+            />
             <p className="grobold">Blockchain on Solana</p>
             <p className="participate_text">
               Utilizing Solana's robust infrastructure as its foundation, $CSOL

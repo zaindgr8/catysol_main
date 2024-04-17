@@ -11,14 +11,13 @@ const Navbar = () => {
   
   return (
     <div className="hero">
-      <nav className="nav">
-        <NavLink to="/">
+      <nav className="nav bg-black bg-opacity-80">
+        <Link to="/">
           <img src="/images/gc1.png" alt="logo" />
-        </NavLink>
+        </Link>
         <ul className={click ? "navList active" : "navList"}>
           <li>
             <Link
-              smooth
               to="/"
               style={{ cursor: "pointer", textDecoration: "none" }}
               className="nav-link"
@@ -27,29 +26,23 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <NavLink
+            <Link
               className="nav-link"
               style={{ cursor: "pointer", textDecoration: "none" }}
               to="/token-allocation"
             >
               White Paper
-            </NavLink>
+            </Link>
           </li>
           <li>
-            <NavLink
+            <Link
               className="nav-link"
-              to="/roadmap"
               style={{ cursor: "pointer", textDecoration: "none" }}
+              to="/roadmap"
             >
               Roadmap
-            </NavLink>
+            </Link>
           </li>
-          {/* <li>
-          <NavLink className='nav-link' to='/' style={{cursor:'pointer',textDecoration:'none'}}>Whitepaper</NavLink>
-          </li> */}
-          {/* <li>
-          <NavLink to='/faq' className='nav-link' style={{cursor:'pointer',textDecoration:'none'}}>FAQ</NavLink>
-          </li> */}
         </ul>
         <div className="hamburger" onClick={handleClick}>
           {click ? (

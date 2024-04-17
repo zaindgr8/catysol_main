@@ -20,6 +20,7 @@ const About = () => {
           <div className="about_image">
             <img
               style={{ marginTop: "-100px", marginLeft: "30px" }}
+              className=""
               src="/images/new/Cat1.png"
               alt="brandImage"
             />

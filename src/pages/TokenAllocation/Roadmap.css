@@ -10,7 +10,7 @@
   position: absolute;
 }
 .nav {
-  position: absolute;
+  position: fixed;
   z-index: 22;
 }
 .roadmap_img {
