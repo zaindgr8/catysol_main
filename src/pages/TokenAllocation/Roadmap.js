@@ -18,14 +18,13 @@ const Roadmap = () => {
   return (
     <div className="roadmap_container">
       <div className="roadmap">
-        <nav className="nav">
-          <NavLink to="/">
+        <nav className="nav bg-black bg-opacity-80">
+          <Link to="/">
             <img src="/images/gc1.png" alt="logo" />
-          </NavLink>
+          </Link>
           <ul className={click ? "navList active" : "navList"}>
             <li>
               <Link
-                smooth
                 to="/"
                 style={{ cursor: "pointer", textDecoration: "none" }}
                 className="nav-link"
@@ -34,40 +33,22 @@ const Roadmap = () => {
               </Link>
             </li>
             <li>
-              <NavLink
+              <Link
                 className="nav-link"
                 style={{ cursor: "pointer", textDecoration: "none" }}
                 to="/token-allocation"
               >
-                Tokenomics
-              </NavLink>
+                White Paper
+              </Link>
             </li>
             <li>
-              <NavLink
+              <Link
                 className="nav-link"
-                to="/roadmap"
                 style={{ cursor: "pointer", textDecoration: "none" }}
+                to="/roadmap"
               >
                 Roadmap
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="nav-link"
-                to="/"
-                style={{ cursor: "pointer", textDecoration: "none" }}
-              >
-                Whitepaper
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/faq"
-                className="nav-link"
-                style={{ cursor: "pointer", textDecoration: "none" }}
-              >
-                FAQ
-              </NavLink>
+              </Link>
             </li>
           </ul>
           <div className="hamburger" onClick={handleClick}>
