@@ -20,7 +20,7 @@ const Roadmap = () => {
       <div className="roadmap">
         <nav className="nav">
           <NavLink to="/">
-            <img src="/images/Logonav.png" alt="logo" />
+            <img src="/images/gc1.png" alt="logo" />
           </NavLink>
           <ul className={click ? "navList active" : "navList"}>
             <li>

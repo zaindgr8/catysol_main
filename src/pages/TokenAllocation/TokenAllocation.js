@@ -71,7 +71,7 @@ const TokenAllocation = () => {
             </p>
           </div>
 
-          <div className="about_one about">
+          {/* <div className="about_one about">
             <h2
               style={{ textAlign: "center", marginBottom: "10px" }}
               className="grobold"
@@ -100,10 +100,10 @@ const TokenAllocation = () => {
             <div className="circle circle_four"></div>
             <div className="circle circle_five"></div>
             <div className="circle circle_six"></div>
-          </div>
+          </div> */}
         </div>
       </div>
-      <div className="footer-inner footer">
+      {/* <div className="footer-inner footer">
         <h1 className="grobold" style={{ color: "#F91FA2" }}>
           Our Mission
         </h1>
@@ -121,13 +121,13 @@ const TokenAllocation = () => {
           accessible and affordable for pet owners everywhere.
         </p>
         <button>Enter Presale</button>
-      </div>
+      </div> */}
 
       <div className="participate">
         <h2 className="grobold">Why CattySol ?</h2>
         <div className="participate_each">
           <div className="participate1">
-            <img src="/images/GroupToken2.png" alt="make payment" />
+            <img src="/images/new/cc.jpg" alt="make payment" />
             <p className="grobold">Strong Community</p>
             <p className="participate_text">
               CattySol is delighted to call Solana Network its home. Our
@@ -136,7 +136,7 @@ const TokenAllocation = () => {
             </p>
           </div>
           <div className="participate1">
-            <img src="/images/VectorToken.png" alt="recieve Token" />
+            <img src="/images/new/bc.jpg" alt="recieve Token" />
             <p className="grobold">Blockchain on Solana</p>
             <p className="participate_text">
               Utilizing Solana's robust infrastructure as its foundation, $CSOL
@@ -151,10 +151,10 @@ const TokenAllocation = () => {
       <div className="about_four">
         <div className=""></div>
       </div>
-      <div className="about_one about">
+      <div className="about_one about mb-10">
         <h2
           style={{ textAlign: "center", marginBottom: "10px" }}
-          className="grobold"
+          className="grobold text-2xl "
         >
           Tokenomics
         </h2>
