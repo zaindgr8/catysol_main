@@ -1,0 +1,233 @@
+.nav {
+  display: flex;
+  width: 100vw;
+  flex: 1;
+  justify-content: space-between;
+  position: fixed;
+  margin-top: 15px;
+}
+.nav img {
+  width: 180px;
+  height: 45px;
+  object-fit: cover;
+  margin-left: 30px;
+}
+.navList {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  margin-right: 20px;
+  color: #f91fa2;
+  font-family: "Poppins";
+  font-weight: 1000;
+  /* position: fixed; */
+}
+.navList li {
+  margin: 10px;
+}
+.nav-link {
+  color: #f91fa2;
+}
+.hero {
+  background-image: url("../../public/images/new/1512x814.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  width: 100vw;
+  height: 950px;
+  background-attachment: fixed;
+  position: relative;
+}
+.hero-inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 150px;
+}
+.grobold {
+  font-family: GROBOLD;
+}
+.hero-inner h1 {
+  font-size: 100px;
+  color: #f91fa2;
+  margin-top: 30px;
+  letter-spacing: 6px;
+}
+.hero-inner h3 {
+  font-size: 44px;
+  font-weight: bolder;
+  color: #f91fa2;
+  margin-bottom: 10px;
+}
+.hero-inner p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #f91fa2;
+  font-weight: 600;
+}
+.hero-inner button {
+  background-color: #f91fa2;
+  color: white;
+  height: 12vh;
+  width: 18vw;
+  padding: 12px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: larger;
+}
+.countdown {
+  margin-top: 50px;
+  color: #f91fa2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.countdown-inner {
+  height: 285px;
+  width: 52vw;
+  display: flex;
+  /* width: auto; */
+  /* height: 300px; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 1em;
+  backdrop-filter: blur(5px);
+  border: 1px solid white;
+  box-shadow: 10px 10px 10px 10px rgba(46, 54, 68, 0.3);
+}
+.timer {
+  display: flex;
+  margin-top: 20px;
+}
+.countdown-inner p {
+  margin-top: 20px;
+  font-weight: 600;
+}
+.timer div {
+  width: 8vw;
+  margin: 10px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  font-size: small;
+  padding-bottom: 28px;
+  background-color: #f91fa2;
+  height: 15vh;
+}
+.countdown_value {
+  font-size: 1.8em;
+}
+
+.hamburger {
+  display: none;
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .hero {
+    background-image: url("../../public/images/heromobile.png");
+    background-repeat: no-repeat;
+    /* background-size:cover; */
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    width: 100vw;
+    height: 1283px;
+    object-fit: cover;
+    /* background-attachment: fixed; */
+    position: relative;
+  }
+  .hamburger {
+    display: block;
+    margin-top: -30px;
+    /* color: white; */
+  }
+  .navList {
+    position: fixed;
+    left: -100%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f91fa2;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 0.4s;
+    /* color: white; */
+    font-weight: 600;
+    top: 0px;
+  }
+  .navList li {
+    color: white;
+  }
+  .nav-link {
+    color: #f91fa2;
+  }
+  .hero-inner {
+    margin-top: 550px;
+  }
+  .navList.active {
+    left: 0;
+    color: white;
+  }
+  .countdown-inner {
+    width: 85vw;
+    margin: 0 auto;
+  }
+  .countdown-inner p {
+    text-align: center;
+  }
+  .timer div {
+    width: 16vw;
+    font-size: 10px;
+  }
+  .timer div p {
+    font-size: 20px;
+  }
+  .nav-link {
+    color: white;
+  }
+  .hero-inner h1 {
+    font-size: 60px;
+    color: #f91fa2;
+    margin-top: 15px;
+    letter-spacing: 1px;
+  }
+  .hero-inner p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f91fa2;
+    font-weight: 600;
+  }
+  .hero-inner h3 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #3e1d00;
+    margin-bottom: 10px;
+  }
+  .hero-inner button {
+    width: 40vw;
+    height: 10vh;
+    font-size: 14px;
+  }
+  /* .navList{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        justify-content: space-evenly;
+        margin-right:20px;
+        color:white;
+        font-family: 'Poppins';
+        font-weight: 1000;
+    } */
+}

@@ -1,0 +1,295 @@
+.tokenAllocation {
+  background-image: url("../../../public/images/BG-08\ 1.png");
+  height: 515px;
+  /* margin-to 0px; */
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* .tokenAllocation-inner_1{
+    /* margin-top: 90px; */
+
+.tokenAllocation-inner1 {
+  padding-top: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.tokenAllocation-inner1 p {
+  text-align: center;
+  width: 50vw;
+  font-weight: 600;
+  color: #f91fa2;
+  margin-bottom: 30px;
+}
+.tokenAllocation-inner1 h2 {
+  padding-bottom: 20px;
+  color: #f91fa2;
+}
+
+.tokenAllocation-inner1_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tokenAllocation-inner1_1 img {
+  margin-right: 95px;
+  height: 440px;
+  width: 37vw;
+  object-fit: contain;
+}
+.sales_percent {
+  display: flex;
+}
+.sales_percent_inner {
+  margin-right: 30px;
+}
+.sales_percent1 {
+  margin-bottom: 20px;
+  background-color: #809e26;
+  color: white;
+  display: flex;
+  border-radius: 6px;
+}
+.sales_percent1 div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+}
+.sales_percent2 {
+  color: white;
+  background-color: #809e26;
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 6px;
+}
+.sales_percent2 div {
+  text-align: center;
+  padding: 15px;
+  /* padding-right:-10px; */
+}
+.table_token_inner {
+  /* border: 1px solid red; */
+  /* margin: 0 auto; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  /* width: 80vw; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 30px;
+}
+.table_token_inner .row1 {
+  display: flex;
+}
+.table_token_inner .row1 div {
+  padding: 20px;
+  width: 15vw;
+  background-color: #809e26;
+  color: white;
+  font-weight: 600;
+  border: 1px solid white;
+}
+
+.row1 .border-side {
+  border-top-left-radius: 20px;
+}
+.row1 .border-side1 {
+  border-top-right-radius: 20px;
+}
+.row2 .border-side3 {
+  border-bottom-left-radius: 20px;
+}
+.row2 .border-side4 {
+  border-bottom-right-radius: 20px;
+}
+.row3 div {
+  display: flex;
+}
+.inner-row3 div {
+  width: 15vw;
+  padding: 10px;
+}
+.inner-row30 div {
+  background-color: #809e26;
+  color: white;
+  font-weight: 600;
+  border: 1px solid;
+}
+.inner-row31 div {
+  background-color: #ffedb2;
+  font-weight: 600;
+  text-align: center;
+}
+.borderpresale1 {
+  border-top-left-radius: 10px;
+}
+.borderpresale2 {
+  border-top-right-radius: 10px;
+}
+.borderpresale3 {
+  border-bottom-left-radius: 10px;
+}
+.row1 div {
+  padding: 10px;
+}
+.row2 div {
+  padding: 10px;
+  text-align: center;
+}
+
+.inner-row3 div {
+  padding: 20px;
+  text-align: center;
+}
+.borderpresale4 {
+  border-bottom-right-radius: 10px;
+}
+.table_token_inner .row2 {
+  display: flex;
+}
+.table_token_inner .row2 div {
+  width: 15vw;
+  background-color: #ffedb2;
+  font-weight: 600;
+  text-align: center;
+}
+.table_token_inner_2 {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border-spacing: 0px;
+  display: flex;
+}
+td {
+  padding: 20px;
+  border: 1px solid #ffedb2;
+  background-color: #ffedb2;
+  font-weight: 600;
+  /* border-bottom-right-radius: 12px; */
+}
+table th {
+  background-color: #809e26;
+  border: 1px solid white;
+  color: white;
+  padding: 20px;
+}
+.participate1 p {
+  color: #f91fa2;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.participate1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.participate1 img {
+  width: 200px;
+  height: 190px;
+  padding-left: 10px;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+.participate h2 {
+  text-align: center;
+  color: #f91fa2;
+}
+
+.participate {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.participate_each {
+  /* border: 1px  solid red; */
+  margin: 0 auto;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  flex-wrap: wrap;
+}
+.participate_text {
+  width: 20vw;
+}
+
+@media screen and (max-width: 700px) {
+  .tokenAllocation-inner1_1 {
+    flex-wrap: wrap;
+  }
+  .tokenAllocation-inner1_1 img {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 60vw;
+  }
+  .table_token_inner {
+    width: 100vw;
+    overflow-x: auto;
+    font-size: 0.6em;
+    /* border: 1px solid red; */
+  }
+  .table_token_inner row1 {
+    width: 100vw;
+  }
+  .table_token_inner_2 {
+    width: 100vw;
+    overflow-x: auto;
+    font-size: 0.6em;
+    /* border: 1px solid red; */
+  }
+  .table_token_inner_2 h2 {
+    font-size: 2.5em;
+  }
+  .participate {
+    font-size: 0.8em;
+  }
+  .sales_percent2 div {
+    font-size: 0.8em;
+    width: 40vw;
+  }
+  .sales_percent1 div {
+    font-size: 0.8em;
+    width: 40vw;
+  }
+  .row1 div {
+    text-align: center;
+    padding: 10px;
+  }
+  .row2 div {
+    text-align: center;
+    padding: 10px;
+  }
+  .inner-row3 div {
+    padding: 10px;
+  }
+  .participate_text {
+    width: 60vw;
+  }
+  .tokenAllocation-inner1 p {
+    width: 85vw;
+  }
+  .table_token_inner .row1 div {
+    width: 20vw;
+  }
+  .table_token_inner .row2 div {
+    width: 20vw;
+  }
+  .inner-row3 div {
+    width: 20vw;
+  }
+}
