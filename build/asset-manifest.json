@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.afdcc18b.css",
+    "main.js": "/static/js/main.2e9bee52.js",
+    "static/media/1512x184.jpg": "/static/media/1512x184.b2f23557ee9b8fad0ba6.jpg",
+    "static/media/1512x814.jpg": "/static/media/1512x814.6228a0e7f2c2c244c386.jpg",
+    "static/media/Clouds 1.png": "/static/media/Clouds 1.3dcb8fc4fb4a57e4cfc7.png",
+    "static/media/1512x696.jpg": "/static/media/1512x696.55542ad35ca630fcc885.jpg",
+    "static/media/Frame 76.jpg": "/static/media/Frame 76.db704d3cbdf494410c73.jpg",
+    "static/media/BG.jpg": "/static/media/BG.ea1dd130e1d516fcb6b2.jpg",
+    "static/media/heromobile.png": "/static/media/heromobile.6bed1162bf8558cc2e3c.png",
+    "static/media/BG-08 1.png": "/static/media/BG-08 1.57532c239e2681dee585.png",
+    "static/media/Coins.png": "/static/media/Coins.58f03719e485836e1c62.png",
+    "static/media/rectangleroadmap.png": "/static/media/rectangleroadmap.09e3a9f51ca01045adb2.png",
+    "static/media/hlogo.png": "/static/media/hlogo.a59f569b6984ac5bd318.png",
+    "static/media/GROBOLD.ttf": "/static/media/GROBOLD.c170796944f054cb2b84.ttf",
+    "index.html": "/index.html",
+    "main.afdcc18b.css.map": "/static/css/main.afdcc18b.css.map",
+    "main.2e9bee52.js.map": "/static/js/main.2e9bee52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afdcc18b.css",
+    "static/js/main.2e9bee52.js"
+  ]
+}
