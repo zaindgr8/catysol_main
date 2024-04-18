@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link to="/">
           <img src="/images/gc1.png" alt="logo" />
         </Link>
-        <ul className={click ? "navList active" : "navList"}>
+        {/* <ul className={click ? "navList active" : "navList"}>
           <li>
             <Link
               to="/"
@@ -43,7 +43,7 @@ const Navbar = () => {
               Roadmap
             </Link>
           </li>
-        </ul>
+        </ul> */}
         <div className="hamburger" onClick={handleClick}>
           {click ? (
             <FaTimes size={20} style={{ color: "" }} />
@@ -55,26 +55,29 @@ const Navbar = () => {
       <div className="hero-inner">
         <h1 className="grobold hero-title">Catty SOL</h1>
         {/* <h3 >Latest Meme Coin</h3> */}
-        <p>Buy yours now!</p>
+        <p>
+          Welcome to CattySol $CSOL, a place in the Solana network, <br /> where
+          the magic of the Solana meets the mystery of cats!
+        </p>
         <button>Enter Presale</button>
       </div>
       <div className="countdown">
         <div className="countdown-inner">
-          <h2 className="grobold">Buy Catty SOL Now</h2>
-          <p>Hurry! & get your Catty SOL Now</p>
+          {/* <h2 className="grobold">Become Part of Solana Mystery</h2>
+          <p>Hurry! & get your Catty SOL Now</p> */}
           <div className="timer">
-            <div>
-              <p className="grobold countdown_value">1B</p> <br /> $CSOL
+            <div className="rounded-lg">
+              <p className="grobold countdown_value">Chart</p> <br />
             </div>
-            <div>
+            {/* <div>
               <p className="grobold countdown_value">60%</p> <br /> PRESALE
+            </div> */}
+            <div className="rounded-lg">
+              <p className="grobold countdown_value">Raydium </p>
+              <br />
             </div>
-            <div>
-              <p className="grobold countdown_value">30.6% </p>
-              <br /> LIQUIDITY
-            </div>
-            <div>
-              <p className="grobold countdown_value">9.4%</p> <br /> CEX LISTING
+            <div className="rounded-lg">
+              <p className="grobold countdown_value">Jupiter</p> <br />
             </div>
           </div>
         </div>

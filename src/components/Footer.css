@@ -1,172 +1,168 @@
-.footer-inner{
+.footer-inner {
+  display: flex;
+  background: url("../../public/images/new/1512x184.jpg");
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  height: 813.22px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-inner button {
+  margin-top: 20px;
+  background-color: #f91fa2;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.footer-inner p {
+  margin-top: 20px;
+  width: 45vw;
+  font-weight: 600;
+  color: #f91fa2;
+  text-align: center;
+}
+.footer-logos img {
+  width: 270px;
+  margin: 20px;
+}
+
+.footer-inner2 {
+  color: white;
+  background-color: black;
+}
+.footer-inner2_1 img {
+  object-fit: cover;
+  width: 200px;
+  height: 50px;
+}
+.footer-inner2_1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.links2 {
+  margin-top: 40px;
+  font-size: 14px;
+}
+.links {
+  margin-top: -10px;
+  font-size: 14px;
+}
+.language {
+  margin-top: -30px;
+  font-size: 14px;
+}
+
+.footer-inner2_1 {
+  margin-bottom: 30px;
+}
+.subscribe button {
+  background-color: #f91fa2;
+  color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.subscribe {
+  font-size: 14px;
+}
+.subscribe input {
+  height: 40px;
+  background-color: #c3c1bf;
+  border: none;
+}
+.footer-inner2_2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-bottom: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.connect_socials {
+  display: flex;
+}
+.main_socials {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.main_socials:hover {
+  color: gainsboro;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .footer-inner2_1 {
     display: flex;
-    background: url('../../public/images/new/1512x184.jpg');
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding:30px;
-    height: 813.22px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.footer-inner button{
-    margin-top: 20px;
-    background-color:#f91fa2;
-    color: white;
-    padding: 15px;
-    border-radius: 5px;
-    font-weight: 600;
-}
-.footer-inner p{
-    margin-top: 20px;
-    width: 45vw;
-    font-weight: 600;
-    color: #f91fa2;
-    text-align: center;
-}
-.footer-logos img{
-    width: 270px;
-    margin: 20px;
-}
-
-.footer-inner2{
-    color: white;
-    background-color: black;
-}
-.footer-inner2_1 img{
-    object-fit: cover;
-    width: 200px;
-    height: 50px;
-}
-.footer-inner2_1{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.links2{
-    margin-top: 40px;
-    font-size: 14px;
-}
-.links{
-    margin-top: -10px;
-    font-size: 14px;
-}
-.language{
-    margin-top: -30px;
-    font-size: 14px;
-}
- 
-
-.footer-inner2_1{
-margin-bottom: 30px;
-}
-.subscribe button{
-    background-color: #f91fa2;
-    color: white;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
-
-}
-.subscribe{
-    font-size: 14px;
-}
-.subscribe input{
-    height: 40px;
-    background-color: #C3C1BF;
-    border: none;
-}
-.footer-inner2_2{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    padding-bottom: 70px;
-    margin-left: 70px;
-    margin-right: 70px;
-
-}
-.connect_socials{
-    display: flex;
-}
-.main_socials{
+    width: 100vw;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin-left: 10px;
-    margin-right: 10px;
-}
-.main_socials:hover{
-    color:gainsboro;
-    cursor: pointer;
-}
-
-@media screen and (max-width:700px){
-    .footer-inner2_1{
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        justify-content: flex-start;
-        align-items: flex-start;
-        margin-left: 10px;
-    }
-    .footer-inner2_1 img{
-        margin: 30px;
-        width: 150px;
-        height: 80px;
-        object-fit: contain;
-    }
-    .language{
-        display: flex;
-        flex-direction: row;
-        /* justify-content: center; */
-    }
-    .language p{
-        padding-top: 30px;
-    }
-    .links{
-        margin-top: 30px;
-    }
-    .subscribe{
-        margin-top: 20px;
-    }
-    .subscribe input{
-        margin-top: 10px;
-        height: 70px;
-        width: 70vw;
-    }
-    .subscribe div{
-        display: flex;
-        flex-direction: column;
-    }
-    .subscribe button{
-        margin-top:10px;
-        width: 40vw;
-        font-weight: 600;
-        height: 50px;
-    }
-    hr{
-        width:100vw;
-        margin-left: 0;
-        padding-left: 0;
-    }
-    .footer-inner2_2{
-        display: flex;
-        flex-direction: column;
-    }
-    .connect_socials{
-        display: flex;
-        margin-top: 20px;
-        flex-direction: column;
-    }
-    .main_socials{
-        margin-top: 20px;
-        font-size: 30px;
-    }
-    .footer-inner h1{
-        font-size:1.2em;
-        text-align: center;
-        margin-top: -120px;
-    }
-    .footer-inner p{
-        width: 85vw;
-    }
-
+  }
+  .footer-inner2_1 img {
+    margin: 30px;
+    width: 150px;
+    height: 80px;
+    object-fit: contain;
+  }
+  .language {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+  }
+  .language p {
+    padding-top: 30px;
+  }
+  .links {
+    margin-top: 30px;
+  }
+  .subscribe {
+    margin-top: 20px;
+  }
+  .subscribe input {
+    margin-top: 10px;
+    height: 70px;
+    width: 70vw;
+  }
+  .subscribe div {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe button {
+    margin-top: 10px;
+    width: 40vw;
+    font-weight: 600;
+    height: 50px;
+  }
+  hr {
+    width: 100vw;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .footer-inner2_2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .connect_socials {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .main_socials {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .footer-inner h1 {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: -120px;
+  }
+  .footer-inner p {
+    width: 85vw;
+  }
 }

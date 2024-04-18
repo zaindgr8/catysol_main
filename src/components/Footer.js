@@ -8,12 +8,20 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-inner">
         <h1 className="grobold" style={{ color: "#F91FA2" }}>
-          Don't miss out on this amazing opportunity
+          Why Catty SOL?
         </h1>
         <p>
-          Be one of the first to explore this unique coin ecosystem where you
-          can invest your interest in the ever-evolving digital world and also
-          make a profit!
+          <span className="text-xl">Strong Community:</span> We're nurturing a
+          community, not just launching a token. Join us and immerse yourself in
+          a lively gathering of cryptocurrency enthusiasts who appreciate the
+          playful side of blockchain technology. Experience the camaraderie by
+          becoming part of the CattySol community.
+          <br />
+          <br />
+          <span className="text-xl">Blockchain on Solana:</span> CattySol is
+          delighted to call Solana Network its home. Our objective is to inject
+          vibrancy into the blockchain realm and offer our community
+          unforgettable experiences.
         </p>
         <button>Enter Presale</button>
         <div className="footer-logos">
