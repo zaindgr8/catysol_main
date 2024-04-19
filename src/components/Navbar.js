@@ -19,49 +19,54 @@ const Navbar = () => {
         </Link>
         <ul className={click ? "navList active" : "navList"}>
           <li>
-            <Link
-              to="#home"
+            <SmoothScroll
+              targetId="home"
               style={{ cursor: "pointer", textDecoration: "none" }}
               className="nav-link"
+              buttonText="Home"
             >
-              Home
-            </Link>
+         
+            </SmoothScroll>
           </li>
           <li>
-            <Link
+            <SmoothScroll
               className="nav-link"
               style={{ cursor: "pointer", textDecoration: "none" }}
-              to="#about"
+              targetId="about"
+              buttonText="About"
             >
               About
-            </Link>
+            </SmoothScroll>
           </li>
           <li>
-            <Link
+            <SmoothScroll
               className="nav-link"
               style={{ cursor: "pointer", textDecoration: "none" }}
-              to="#why"
+              targetId="why"
+              buttonText="Why $CSOL"
             >
               Why $CSOL
-            </Link>
+            </SmoothScroll>
           </li>
           <li>
-            <Link
+            <SmoothScroll
               className="nav-link"
               style={{ cursor: "pointer", textDecoration: "none" }}
-              to="#tokenomics"
+              targetId="tokenomics"
+              buttonText="Tokenomics"
             >
               Tokenomics
-            </Link>
+            </SmoothScroll>
           </li>
           <li>
-            <Link
+            <SmoothScroll
               className="nav-link"
               style={{ cursor: "pointer", textDecoration: "none" }}
-              to="#roadmap"
+              targetId="roadmap"
+              buttonText="Roadmap"
             >
               Roadmap
-            </Link>
+            </SmoothScroll>
           </li>
           <li>
             <a
@@ -114,7 +119,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <span id='about'></span>
+      <span id="about"></span>
     </div>
   );
 }
