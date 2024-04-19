@@ -7,8 +7,8 @@
   /* margin-top: 15px; */
 }
 .nav img {
-  width: 180px;
-  height: 45px;
+  width: 250px;
+  height: 55px;
   object-fit: cover;
   margin-left: 30px;
 }
@@ -107,6 +107,7 @@
 .timer {
   display: flex;
   margin-top: 20px;
+ 
 }
 .countdown-inner p {
   margin-top: 20px;
@@ -114,14 +115,14 @@
 }
 .timer div {
   width: 8vw;
-  margin: 10px;
+  margin: 15px;
   font-weight: bolder;
   color: white;
   text-align: center;
   font-size: small;
   padding-bottom: 28px;
   background-color: #f91fa2;
-  height: 15vh;
+  height: 10vh;
 }
 .countdown_value {
   font-size: 1.8em;
@@ -188,11 +189,11 @@
     text-align: center;
   }
   .timer div {
-    width: 16vw;
+    width: 17vw;
     font-size: 10px;
   }
   .timer div p {
-    font-size: 20px;
+    font-size: 13px;
   }
   .nav-link {
     color: white;

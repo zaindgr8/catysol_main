@@ -1,13 +1,14 @@
 import React from "react";
 import "./Footer.css";
-import { FaTelegram, FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-inner">
-        <h1 className="grobold" style={{ color: "#F91FA2" }}>
+        <h1
+          className="uppercase mb-5 font-bold grobold text-[36px] xs:text-[20px] sm:text-[24px] text-center"
+          style={{ color: "#F91FA2" }}
+        >
           Why Catty SOL?
         </h1>
         <p>

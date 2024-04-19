@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
 import './Navbar.css'
 import {FaTimes, FaBars} from 'react-icons/fa'
 import { HashLink as Link } from 'react-router-hash-link';
@@ -11,11 +10,11 @@ const Navbar = () => {
   
   return (
     <div className="hero">
-      <nav className="nav bg-black bg-opacity-80">
+      <nav className="nav bg-[#1C0738] bg-opacity-70 py-5 mt-5">
         <Link to="/">
           <img src="/images/gc1.png" alt="logo" />
         </Link>
-        {/* <ul className={click ? "navList active" : "navList"}>
+        <ul className={click ? "navList active" : "navList"}>
           <li>
             <Link
               to="/"
@@ -31,7 +30,25 @@ const Navbar = () => {
               style={{ cursor: "pointer", textDecoration: "none" }}
               to="/token-allocation"
             >
-              White Paper
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="nav-link"
+              style={{ cursor: "pointer", textDecoration: "none" }}
+              to="/roadmap"
+            >
+              Why $CSOL
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="nav-link"
+              style={{ cursor: "pointer", textDecoration: "none" }}
+              to="/roadmap"
+            >
+              Tokenomics
             </Link>
           </li>
           <li>
@@ -43,12 +60,21 @@ const Navbar = () => {
               Roadmap
             </Link>
           </li>
-        </ul> */}
+          <li>
+            <Link
+              className="nav-link"
+              style={{ cursor: "pointer", textDecoration: "none" }}
+              to="/roadmap"
+            >
+              Whitepaper
+            </Link>
+          </li>
+        </ul>
         <div className="hamburger" onClick={handleClick}>
           {click ? (
             <FaTimes size={20} style={{ color: "" }} />
           ) : (
-            <FaBars size={20} style={{ color: "" }} />
+            <FaBars className="mt-7" size={20} style={{ color: "#F91FA2" }} />
           )}
         </div>
       </nav>
@@ -67,17 +93,17 @@ const Navbar = () => {
           <p>Hurry! & get your Catty SOL Now</p> */}
           <div className="timer">
             <div className="rounded-lg">
-              <p className="grobold countdown_value">Chart</p> <br />
+              <p className="grobold">Chart</p> <br />
             </div>
             {/* <div>
               <p className="grobold countdown_value">60%</p> <br /> PRESALE
             </div> */}
             <div className="rounded-lg">
-              <p className="grobold countdown_value">Raydium </p>
+              <p className="grobold">Raydium </p>
               <br />
             </div>
             <div className="rounded-lg">
-              <p className="grobold countdown_value">Jupiter</p> <br />
+              <p className="grobold">Jupiter</p> <br />
             </div>
           </div>
         </div>

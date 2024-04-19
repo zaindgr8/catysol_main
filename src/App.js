@@ -5,7 +5,6 @@ import TokenAllocation from './pages/TokenAllocation/TokenAllocation';
 import Roadmap from './pages/TokenAllocation/Roadmap';
 import Faq from './pages/TokenAllocation/Faq';
 import About from './components/About';
-import Whitepaper from "./pages/TokenAllocation/Whitepaper"
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
         <Route exact path="/roadmap" element={<Roadmap />} />
         <Route exact path="/faq" element={<Faq />} />
         <Route exact path="/about" element={<About />} />
-        <Route exact path="/whitepaper" element={<Whitepaper />} />
       </Routes>
     </div>
   );

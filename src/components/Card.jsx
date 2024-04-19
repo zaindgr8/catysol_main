@@ -12,7 +12,7 @@ const Card1 = () => {
       </div>
       <div className="md:w-1/2 md:px-4 z-10">
         {/* Added z-index: 10 for content */}
-        <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white grobold mt-5">
+        <h1 className="uppercase mb-5 font-bold grobold text-[36px] xs:text-[20px] sm:text-[24px] text-center text-white">
           About Us
         </h1>
         <div className=" text-md mb-4 text-white  font-semibold max-w-[85%]">

@@ -53,10 +53,10 @@ export const Service2 = () => {
       <div className="px-4">
         <div className="grid grid-cols-12 md:mb-12">
           <div className="col-span-12 lg:col-span-6 lg:col-start-4 text-center">
-            <h2 className="text-3xl grobold text-[#1D0738] leading-none md:text-[45px] font-bold mb-6">
+            <h2 className="uppercase mb-5 font-bold grobold text-[36px] xs:text-[20px] sm:text-[24px] text-center text-[#F91FA2]">
               Tokenomics
             </h2>
-            <p className="text-md opacity-80 text-[#1D0738] grobold">
+            <p className="text-md opacity-80 text-[#F91FA2] grobold">
               Utilizing Solana's robust infrastructure as its foundation, $CSOL
               leverages a secure, scalable, and user-friendly blockchain.
               Whether you're an experienced cryptocurrency trader or a novice
@@ -87,7 +87,6 @@ export const Service2 = () => {
             </div>
           </div>
         </div>
-       
       </div>
     </section>
   );

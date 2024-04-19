@@ -14,18 +14,20 @@ const MemberShip = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <h1 className="uppercase font-bold grobold text-[36px] xs:text-[20px] sm:text-[24px] text-center text-black">
+      <h1 className="uppercase font-bold grobold text-[36px] xs:text-[20px] sm:text-[24px] text-center text-[#F91FA2]">
         Road Map of $CSOL
       </h1>
-      <div className=" grobold grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-1 gap-8 px-5 mx-auto mt-10">
+      <div className="text-[#F91FA2] grobold grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-1 gap-8 px-5 mx-auto mt-10">
         <Boxes
           title="Phase 1"
           description={
             <ul className="list-disc  grobold">
-              <li className=" grobold">Launch Website & Socials</li>
-              <li className=" grobold">Building Community</li>
-              <li className=" grobold">Presale on Pinksale</li>
-              <li className=" grobold">Pre-Launch Marketing</li>
+              <li className="text-[#F91FA2] grobold">
+                Launch Website & Socials
+              </li>
+              <li className="text-[#F91FA2] grobold">Building Community</li>
+              <li className="text-[#F91FA2] grobold">Presale on Pinksale</li>
+              <li className="text-[#F91FA2] grobold">Pre-Launch Marketing</li>
             </ul>
           }
         />
@@ -33,11 +35,11 @@ const MemberShip = () => {
           title="Phase 2"
           description={
             <ul className="list-disc">
-              <li className=" grobold">Listing CEX</li>
-              <li className=" grobold">Listing CMC & CG</li>
-              <li className=" grobold">Trending Campaigns</li>
-              <li className=" grobold">$50 Million MarketCap</li>
-              <li className=" grobold">50,000 Holders</li>
+              <li className="text-[#F91FA2] grobold">Listing CEX</li>
+              <li className="text-[#F91FA2] grobold">Listing CMC & CG</li>
+              <li className="text-[#F91FA2] grobold">Trending Campaigns</li>
+              <li className="text-[#F91FA2] grobold">$50 Million MarketCap</li>
+              <li className="text-[#F91FA2] grobold">50,000 Holders</li>
             </ul>
           }
         />
@@ -45,9 +47,11 @@ const MemberShip = () => {
           title="Phase 3"
           description={
             <ul className="list-disc">
-              <li className=" grobold">Listing Tier 1 Cex</li>
-              <li className=" grobold">Partnerships with Financial Firms</li>
-              <li className=" grobold">Live Events</li>
+              <li className="text-[#F91FA2] grobold">Listing Tier 1 Cex</li>
+              <li className="text-[#F91FA2] grobold">
+                Partnerships with Financial Firms
+              </li>
+              <li className="text-[#F91FA2] grobold">Live Events</li>
             </ul>
           }
           // image={indivisual}
