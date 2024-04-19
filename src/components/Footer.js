@@ -1,11 +1,13 @@
 import React from "react";
 import "./Footer.css";
+import Footer1 from "./Footer1"
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-inner">
         <h1
+ 
           className="uppercase mb-5 font-bold grobold text-[36px] xs:text-[20px] sm:text-[24px] text-center"
           style={{ color: "#F91FA2" }}
         >
@@ -31,23 +33,27 @@ const Footer = () => {
           {/* <img src="/images/PancakeSwap.png" alt="pancake swap" /> */}
         </div>
       </div>
-      <div className="footer-inner2">
-        <div className="footer-inner2_1">
-          <img src="/images/gc1.png" alt="logo" />
-          <div className="subscribe">
-            <p>Subscribe to our email</p>
-            <div>
-              <input type="text" />
-              <button>Enter Presale</button>
-            </div>
-          </div>
-        </div>
-        <hr style={{ marginLeft: "70px", marginRight: "70px" }} />
-        <div className="footer-inner2_2">
-          <p>&copy; 2024 Catty SOL. All rights reserved</p>
-          <div className="connect_socials"></div>
-        </div>
+      
+ {/* <div className="footer-inner2" style={{ backgroundImage: `url(/images/your-footer-bg.jpg)` }}>
+  <div className="footer-inner2_1">
+    <img src="/images/gc1.png" alt="logo" />
+    <div className="subscribe">
+      <p>Subscribe to our email</p>
+      <div>
+        <input type="text" />
+        <button>Enter Presale</button>
       </div>
+    </div>
+  </div>
+  <hr style={{ marginLeft: "70px", marginRight: "70px" }} />
+  <div className="footer-inner2_2">
+    <p>&copy; 2024 Catty SOL. All rights reserved</p>
+    <div className="connect_socials"></div>
+  </div>
+</div> */}
+<Footer1/>
+
+
     </div>
   );
 };

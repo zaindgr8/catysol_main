@@ -1,7 +1,10 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import './Navbar.css'
 import {FaTimes, FaBars} from 'react-icons/fa'
 import { HashLink as Link } from 'react-router-hash-link';
+import { Link as ScrollLink } from "react-scroll";
+import SmoothScroll from './SmoothScroll';
+
 
 
 const Navbar = () => {
@@ -10,14 +13,14 @@ const Navbar = () => {
   
   return (
     <div className="hero">
-      <nav className="nav bg-[#1C0738] bg-opacity-70 py-5 mt-5">
+      <nav className="nav bg-[#1C0738] bg-opacity-70 py-5 mt-5 xl:ml-8 rounded-full">
         <Link to="/">
           <img src="/images/gc1.png" alt="logo" />
         </Link>
         <ul className={click ? "navList active" : "navList"}>
           <li>
             <Link
-              to="/"
+              to="#home"
               style={{ cursor: "pointer", textDecoration: "none" }}
               className="nav-link"
             >
@@ -28,7 +31,7 @@ const Navbar = () => {
             <Link
               className="nav-link"
               style={{ cursor: "pointer", textDecoration: "none" }}
-              to="/token-allocation"
+              to="#about"
             >
               About
             </Link>
@@ -37,7 +40,7 @@ const Navbar = () => {
             <Link
               className="nav-link"
               style={{ cursor: "pointer", textDecoration: "none" }}
-              to="/roadmap"
+              to="#why"
             >
               Why $CSOL
             </Link>
@@ -46,7 +49,7 @@ const Navbar = () => {
             <Link
               className="nav-link"
               style={{ cursor: "pointer", textDecoration: "none" }}
-              to="/roadmap"
+              to="#tokenomics"
             >
               Tokenomics
             </Link>
@@ -55,19 +58,19 @@ const Navbar = () => {
             <Link
               className="nav-link"
               style={{ cursor: "pointer", textDecoration: "none" }}
-              to="/roadmap"
+              to="#roadmap"
             >
               Roadmap
             </Link>
           </li>
           <li>
-            <Link
+            <a
               className="nav-link"
               style={{ cursor: "pointer", textDecoration: "none" }}
-              to="/roadmap"
+              href="https://csol-whitepaper.vercel.app/"
             >
               Whitepaper
-            </Link>
+            </a>
           </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>
@@ -78,8 +81,11 @@ const Navbar = () => {
           )}
         </div>
       </nav>
+
       <div className="hero-inner">
-        <h1 className="grobold hero-title">Catty SOL</h1>
+        <h1 id="home" className="grobold hero-title">
+          Catty SOL
+        </h1>
         {/* <h3 >Latest Meme Coin</h3> */}
         <p>
           Welcome to CattySol $CSOL, a place in the Solana network, <br /> where
@@ -108,6 +114,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      <span id='about'></span>
     </div>
   );
 }

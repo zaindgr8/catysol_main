@@ -2,7 +2,10 @@ import React from "react";
 
 const Card1 = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center px-10 relative mt-10 mb-10">
+    <div
+    
+       className=" flex flex-col md:flex-row items-center px-10 relative mt-10 mb-10"
+    >
       <div className="md:w-1/2">
         <img
           src="/images/new/Cat1.png"
@@ -37,6 +40,7 @@ const Card1 = () => {
           className="absolute inset-0 object-cover w-full h-full z-0"
         />
       </div>
+
     </div>
   );
 };

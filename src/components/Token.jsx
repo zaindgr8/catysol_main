@@ -49,7 +49,10 @@ ServiceItem.propTypes = {
 
 export const Service2 = () => {
   return (
-    <section className="ezy__service2  light py-14   text-zinc-900 dark:text-red-500">
+    <section
+      id="tokenomics"
+      className="ezy__service2  light py-14   text-zinc-900 dark:text-red-500"
+    >
       <div className="px-4">
         <div className="grid grid-cols-12 md:mb-12">
           <div className="col-span-12 lg:col-span-6 lg:col-start-4 text-center">
@@ -71,20 +74,24 @@ export const Service2 = () => {
             <p>Hurry! & get your Catty SOL Now</p> */}
             <div className="timer">
               <div>
-                <p className="grobold countdown_value">1B</p> <br /> $CSOL
+                <p className="grobold countdown_value">1B</p> <br />{" "}
+                <p className="text-[#F91FA2] text-xl grobold">$CSOL</p>
               </div>
               <div>
-                <p className="grobold countdown_value">60%</p> <br /> PRESALE
+                <p className="grobold countdown_value">60%</p> <br />
+                <p className="text-[#F91FA2] text-xl grobold">PRESALE</p>
               </div>
               <div>
                 <p className="grobold countdown_value">30.6% </p>
-                <br /> LIQUIDITY
+                <br />{" "}
+                <p className="text-[#F91FA2] text-xl grobold">LIQUIDITY</p>
               </div>
               <div>
-                <p className="grobold countdown_value">9.4%</p> <br /> CEX
-                LISTING
+                <p className="grobold countdown_value">9.4%</p> <br />{" "}
+                <p className="text-[#F91FA2] text-xl grobold">CEX</p>
               </div>
             </div>
+            <span id="roadmap"></span>
           </div>
         </div>
       </div>

@@ -7,10 +7,11 @@ import Card2 from "./Card2"
 const About = () => {
   return (
     <>
-    <Card1/>
-    <Service2/>
-    <Card2/>
+      <Card1 />
  
+      <Service2 />
+
+      <Card2 />
     </>
   );
 };

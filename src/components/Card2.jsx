@@ -6,7 +6,7 @@ const MemberShip = () => {
   return (
     <div
       className="py-10 bg-[#f5f6f7] mb-10 relative"
-      id="MemberShips"
+   
       style={{
         backgroundImage: `url(${indivisual})`, // Replace indivisual with the appropriate image variable
         backgroundSize: "cover",
@@ -57,6 +57,7 @@ const MemberShip = () => {
           // image={indivisual}
         />
       </div>
+      <span id="why"></span>
     </div>
   );
 };
