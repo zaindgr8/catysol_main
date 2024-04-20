@@ -68,10 +68,9 @@ export const Service2 = () => {
             </p>
           </div>
         </div>
+        
         <div className="countdown">
           <div className="countdown-inner">
-            {/* <h2 className="grobold">Become Part of Solana Mystery</h2>
-            <p>Hurry! & get your Catty SOL Now</p> */}
             <div className="timer">
               <div>
                 <p className="grobold countdown_value">1B</p> <br />{" "}

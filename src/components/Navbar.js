@@ -24,9 +24,7 @@ const Navbar = () => {
               style={{ cursor: "pointer", textDecoration: "none" }}
               className="nav-link"
               buttonText="Home"
-            >
-         
-            </SmoothScroll>
+            ></SmoothScroll>
           </li>
           <li>
             <SmoothScroll
@@ -102,20 +100,14 @@ const Navbar = () => {
         <div className="countdown-inner">
           {/* <h2 className="grobold">Become Part of Solana Mystery</h2>
           <p>Hurry! & get your Catty SOL Now</p> */}
-          <div className="timer">
-            <div className="rounded-lg">
-              <p className="grobold">Chart</p> <br />
-            </div>
-            {/* <div>
-              <p className="grobold countdown_value">60%</p> <br /> PRESALE
-            </div> */}
-            <div className="rounded-lg">
-              <p className="grobold">Raydium </p>
-              <br />
-            </div>
-            <div className="rounded-lg">
-              <p className="grobold">Jupiter</p> <br />
-            </div>
+          <div className="timer flex flex-col text-center">
+            <p className='text-2xl'>What is Catty SOL</p>
+            <p>
+              Purrfect! At Catty Sol ($CSOL), our mission is to infuse the
+              Solana network with joy and vitality. We're dedicated to
+              cultivating a vibrant community where ideas flourish, support
+              abounds, and we ride the meme wave as one!
+            </p>
           </div>
         </div>
       </div>
