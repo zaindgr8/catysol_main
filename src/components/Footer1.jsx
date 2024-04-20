@@ -1,73 +1,45 @@
 import React from "react";
-import hlogo2 from "../new/Cat1.png";
-import { VscLocation } from "react-icons/vsc";
+import Tele from "../assets/telegram.png"
+import Twiter from "../assets/twitter.png";
+import Cat from "../assets/Cat1.png";
 
 const Footer = () => {
   return (
-    <footer class="bg-black">
-      <div className="mx-auto w-[90%]  grid xl:grid-cols-9 lg:grid-cols-9 md:grid-cols-4 sm:grid-cols-4 xs:grid-cols-1 gap-6">
-        <div className=" xl:col-span-3 lg:col-span-3 md:col-span-2 sm:col-span-2 xs:col-span-1 xs:flex xs:justify-center xs:items-center mt-28">
-          <a href="/" class="flex items-center">
-            <img src={hlogo2} class="hidden xs:flex" />
-            <img src={hlogo2} class="flex xs:hidden" />
-          </a>
-        </div>
+    <footer class="bg-[#1C0738]">
+      <div className="flex items-center justify-between px-12">
         <div className=" mt-24 xl:col-span-2 lg:col-span-2 md:col-span-2 sm:col-span-2 xs:col-span-1 xs:flex xs:flex-col xs:justify-center xs:items-center">
-          <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white font-Cinzel">
-            Membership Types
-          </h2>
           <ul class="text-white dark:text-gray-400 font-light font-helveticaNeue ">
             <li class="mb-4">
               <a href="#MemberShips" class="hover:underline">
-                Individual Membership
-              </a>
-            </li>
-            <li>
-              <a href="#MemberShips" class="hover:underline">
-                Corporate Membership
+                <img width={240} src={Tele} />
               </a>
             </li>
           </ul>
         </div>
         <div className=" mt-24 xl:col-span-2 lg:col-span-2 md:col-span-2 sm:col-span-2 xs:col-span-1 xs:flex xs:flex-col xs:justify-center xs:items-center">
-          <h2 class="mb-6 text-sm font-light text-white uppercase dark:text-white font-Cinzel">
-            Recommended Services
-          </h2>
+          <ul class="text-white dark:text-gray-400 font-light font-helveticaNeue ">
+            <li class="mb-4">
+              <a href="#MemberShips" className="flex flex-col items-center gap-y-3">
+                <img width={240} src={Cat} />
+                <p className="grobold text-2xl ">$CSOL</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className=" mt-24 xl:col-span-2 lg:col-span-2 md:col-span-2 sm:col-span-2 xs:col-span-1 xs:flex xs:flex-col xs:justify-center xs:items-center">
           <ul class="text-white dark:text-gray-400 font-light font-helveticaNeue">
             <li class="mb-4">
               <a href="#services" class="hover:underline ">
-                Business Consultancy
-              </a>
-            </li>
-            <li className="mb-4">
-              <a href="#services" class="hover:underline">
-                Premium Real Estate
-              </a>
-            </li>
-            <li className="mb-4">
-              <a href="#services" class="hover:underline">
-                Branding & Marketing
+                <img width={240} src={Twiter} />
               </a>
             </li>
           </ul>
         </div>
-        <div className=" mt-24 xl:col-span-2 lg:col-span-2 md:col-span-2 sm:col-span-2 xs:col-span-1 xs:flex xs:flex-col xs:justify-center xs:items-center">
-          <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white font-Cinzel">
-            Location
-          </h2>
-          <ul class="text-white dark:text-gray-400 font-light font-helveticaNeue">
-            <li class="mb-4 flex items-center">
-              <VscLocation />
-              Dubai, Switzerland
-            </li>
-          </ul>
-        </div>
-        s
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div class=" justify-center items-center mx-auto flex flex-wrap w-[90%] pb-5">
         <p className="font-helveticaNeue font-light text-[12px] xs:text-[9px] text-white">
-          © HEDONE ACCESS 2023 ALL RIGHTS RESERVED
+          © CATTY 2024 SOL All Rights Reserved
         </p>
       </div>
     </footer>
