@@ -19,15 +19,15 @@ const Card1 = () => {
           About Us
         </h1>
         <div className=" text-md mb-4 text-white  font-semibold max-w-[85%]">
-          Welcome to CattySol ($CSOL), a place in the Solana network, where the
-          magic of the Solana meets the mystery of cats! <br /> <br />
+          Welcome to CattySol ($CSOL), a place in the Solana network, where
+          magic of Solana meets the mystery of cats! <br /> <br />
           Our mission revolves around enhancing the vibrancy and dynamism of the
           Solana ecosystem.
           <br /> <br />
           Our objective is to cultivate a flourishing and inclusive community,
           fostering an environment where individuals can freely share their
           thoughts, support one another, and engage in the collective enthusiasm
-          of internet culture. CattySol is poised t
+          of internet culture. 
         </div>
       </div>
 
